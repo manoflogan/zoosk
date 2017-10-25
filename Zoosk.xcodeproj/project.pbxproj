@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE67152D1F7E059B00094F35 /* SimplePolygonViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AE67152C1F7E059B00094F35 /* SimplePolygonViewController2.m */; };
+		AECBB0191F78698200258027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBB0181F78698200258027 /* AppDelegate.m */; };
+		AECBB01F1F78698200258027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECBB01D1F78698200258027 /* Main.storyboard */; };
+		AECBB0211F78698200258027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECBB0201F78698200258027 /* Assets.xcassets */; };
+		AECBB0241F78698200258027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECBB0221F78698200258027 /* LaunchScreen.storyboard */; };
+		AECBB0271F78698200258027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBB0261F78698200258027 /* main.m */; };
+		AECBB0311F78698200258027 /* ZooskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBB0301F78698200258027 /* ZooskTests.m */; };
+		AECBB03C1F78698200258027 /* ZooskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBB03B1F78698200258027 /* ZooskUITests.m */; };
+		AECBB04B1F78699F00258027 /* Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBB04A1F78699F00258027 /* Polygon.m */; };
+		AECBB04E1F787D4000258027 /* DrawPolygonControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBB04D1F787D4000258027 /* DrawPolygonControllerViewController.m */; };
+		AECBB0511F7882CD00258027 /* SimpleRegularPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBB0501F7882CD00258027 /* SimpleRegularPolygonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AECBB02D1F78698200258027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECBB00C1F78698200258027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECBB0131F78698200258027;
+			remoteInfo = Zoosk;
+		};
+		AECBB0381F78698200258027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECBB00C1F78698200258027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECBB0131F78698200258027;
+			remoteInfo = Zoosk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE67152B1F7E059B00094F35 /* SimplePolygonViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePolygonViewController2.h; sourceTree = "<group>"; };
+		AE67152C1F7E059B00094F35 /* SimplePolygonViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePolygonViewController2.m; sourceTree = "<group>"; };
+		AECBB0141F78698200258027 /* Zoosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoosk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECBB0171F78698200258027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AECBB0181F78698200258027 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AECBB01E1F78698200258027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AECBB0201F78698200258027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AECBB0231F78698200258027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AECBB0251F78698200258027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECBB0261F78698200258027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AECBB02C1F78698200258027 /* ZooskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECBB0301F78698200258027 /* ZooskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooskTests.m; sourceTree = "<group>"; };
+		AECBB0321F78698200258027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECBB0371F78698200258027 /* ZooskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECBB03B1F78698200258027 /* ZooskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooskUITests.m; sourceTree = "<group>"; };
+		AECBB03D1F78698200258027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECBB0491F78699F00258027 /* Polygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Polygon.h; sourceTree = "<group>"; };
+		AECBB04A1F78699F00258027 /* Polygon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Polygon.m; sourceTree = "<group>"; };
+		AECBB04C1F787D4000258027 /* DrawPolygonControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPolygonControllerViewController.h; sourceTree = "<group>"; };
+		AECBB04D1F787D4000258027 /* DrawPolygonControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPolygonControllerViewController.m; sourceTree = "<group>"; };
+		AECBB04F1F7882CD00258027 /* SimpleRegularPolygonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleRegularPolygonView.h; sourceTree = "<group>"; };
+		AECBB0501F7882CD00258027 /* SimpleRegularPolygonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRegularPolygonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AECBB0111F78698200258027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECBB0291F78698200258027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECBB0341F78698200258027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AECBB00B1F78698200258027 = {
+			isa = PBXGroup;
+			children = (
+				AECBB0161F78698200258027 /* Zoosk */,
+				AECBB02F1F78698200258027 /* ZooskTests */,
+				AECBB03A1F78698200258027 /* ZooskUITests */,
+				AECBB0151F78698200258027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AECBB0151F78698200258027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AECBB0141F78698200258027 /* Zoosk.app */,
+				AECBB02C1F78698200258027 /* ZooskTests.xctest */,
+				AECBB0371F78698200258027 /* ZooskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AECBB0161F78698200258027 /* Zoosk */ = {
+			isa = PBXGroup;
+			children = (
+				AECBB0171F78698200258027 /* AppDelegate.h */,
+				AECBB0181F78698200258027 /* AppDelegate.m */,
+				AECBB01D1F78698200258027 /* Main.storyboard */,
+				AECBB0201F78698200258027 /* Assets.xcassets */,
+				AECBB0221F78698200258027 /* LaunchScreen.storyboard */,
+				AECBB0251F78698200258027 /* Info.plist */,
+				AECBB0261F78698200258027 /* main.m */,
+				AECBB0491F78699F00258027 /* Polygon.h */,
+				AECBB04A1F78699F00258027 /* Polygon.m */,
+				AECBB04C1F787D4000258027 /* DrawPolygonControllerViewController.h */,
+				AECBB04D1F787D4000258027 /* DrawPolygonControllerViewController.m */,
+				AECBB04F1F7882CD00258027 /* SimpleRegularPolygonView.h */,
+				AECBB0501F7882CD00258027 /* SimpleRegularPolygonView.m */,
+				AE67152B1F7E059B00094F35 /* SimplePolygonViewController2.h */,
+				AE67152C1F7E059B00094F35 /* SimplePolygonViewController2.m */,
+			);
+			path = Zoosk;
+			sourceTree = "<group>";
+		};
+		AECBB02F1F78698200258027 /* ZooskTests */ = {
+			isa = PBXGroup;
+			children = (
+				AECBB0301F78698200258027 /* ZooskTests.m */,
+				AECBB0321F78698200258027 /* Info.plist */,
+			);
+			path = ZooskTests;
+			sourceTree = "<group>";
+		};
+		AECBB03A1F78698200258027 /* ZooskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AECBB03B1F78698200258027 /* ZooskUITests.m */,
+				AECBB03D1F78698200258027 /* Info.plist */,
+			);
+			path = ZooskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AECBB0131F78698200258027 /* Zoosk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECBB0401F78698200258027 /* Build configuration list for PBXNativeTarget "Zoosk" */;
+			buildPhases = (
+				AECBB0101F78698200258027 /* Sources */,
+				AECBB0111F78698200258027 /* Frameworks */,
+				AECBB0121F78698200258027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoosk;
+			productName = Zoosk;
+			productReference = AECBB0141F78698200258027 /* Zoosk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AECBB02B1F78698200258027 /* ZooskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECBB0431F78698200258027 /* Build configuration list for PBXNativeTarget "ZooskTests" */;
+			buildPhases = (
+				AECBB0281F78698200258027 /* Sources */,
+				AECBB0291F78698200258027 /* Frameworks */,
+				AECBB02A1F78698200258027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECBB02E1F78698200258027 /* PBXTargetDependency */,
+			);
+			name = ZooskTests;
+			productName = ZooskTests;
+			productReference = AECBB02C1F78698200258027 /* ZooskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AECBB0361F78698200258027 /* ZooskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECBB0461F78698200258027 /* Build configuration list for PBXNativeTarget "ZooskUITests" */;
+			buildPhases = (
+				AECBB0331F78698200258027 /* Sources */,
+				AECBB0341F78698200258027 /* Frameworks */,
+				AECBB0351F78698200258027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECBB0391F78698200258027 /* PBXTargetDependency */,
+			);
+			name = ZooskUITests;
+			productName = ZooskUITests;
+			productReference = AECBB0371F78698200258027 /* ZooskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AECBB00C1F78698200258027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kartik Krishnanand";
+				TargetAttributes = {
+					AECBB0131F78698200258027 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AECBB02B1F78698200258027 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AECBB0131F78698200258027;
+					};
+					AECBB0361F78698200258027 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AECBB0131F78698200258027;
+					};
+				};
+			};
+			buildConfigurationList = AECBB00F1F78698200258027 /* Build configuration list for PBXProject "Zoosk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AECBB00B1F78698200258027;
+			productRefGroup = AECBB0151F78698200258027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AECBB0131F78698200258027 /* Zoosk */,
+				AECBB02B1F78698200258027 /* ZooskTests */,
+				AECBB0361F78698200258027 /* ZooskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AECBB0121F78698200258027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECBB0241F78698200258027 /* LaunchScreen.storyboard in Resources */,
+				AECBB0211F78698200258027 /* Assets.xcassets in Resources */,
+				AECBB01F1F78698200258027 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECBB02A1F78698200258027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECBB0351F78698200258027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AECBB0101F78698200258027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECBB0511F7882CD00258027 /* SimpleRegularPolygonView.m in Sources */,
+				AECBB04B1F78699F00258027 /* Polygon.m in Sources */,
+				AE67152D1F7E059B00094F35 /* SimplePolygonViewController2.m in Sources */,
+				AECBB04E1F787D4000258027 /* DrawPolygonControllerViewController.m in Sources */,
+				AECBB0271F78698200258027 /* main.m in Sources */,
+				AECBB0191F78698200258027 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECBB0281F78698200258027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECBB0311F78698200258027 /* ZooskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECBB0331F78698200258027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECBB03C1F78698200258027 /* ZooskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AECBB02E1F78698200258027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECBB0131F78698200258027 /* Zoosk */;
+			targetProxy = AECBB02D1F78698200258027 /* PBXContainerItemProxy */;
+		};
+		AECBB0391F78698200258027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECBB0131F78698200258027 /* Zoosk */;
+			targetProxy = AECBB0381F78698200258027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AECBB01D1F78698200258027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECBB01E1F78698200258027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AECBB0221F78698200258027 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECBB0231F78698200258027 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AECBB03E1F78698200258027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AECBB03F1F78698200258027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AECBB0411F78698200258027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J6J73MA55;
+				INFOPLIST_FILE = Zoosk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnanand.Zoosk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AECBB0421F78698200258027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J6J73MA55;
+				INFOPLIST_FILE = Zoosk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnanand.Zoosk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AECBB0441F78698200258027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J6J73MA55;
+				INFOPLIST_FILE = ZooskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnanand.ZooskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zoosk.app/Zoosk";
+			};
+			name = Debug;
+		};
+		AECBB0451F78698200258027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J6J73MA55;
+				INFOPLIST_FILE = ZooskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnanand.ZooskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zoosk.app/Zoosk";
+			};
+			name = Release;
+		};
+		AECBB0471F78698200258027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J6J73MA55;
+				INFOPLIST_FILE = ZooskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnanand.ZooskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zoosk;
+			};
+			name = Debug;
+		};
+		AECBB0481F78698200258027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J6J73MA55;
+				INFOPLIST_FILE = ZooskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krishnanand.ZooskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zoosk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AECBB00F1F78698200258027 /* Build configuration list for PBXProject "Zoosk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECBB03E1F78698200258027 /* Debug */,
+				AECBB03F1F78698200258027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECBB0401F78698200258027 /* Build configuration list for PBXNativeTarget "Zoosk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECBB0411F78698200258027 /* Debug */,
+				AECBB0421F78698200258027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECBB0431F78698200258027 /* Build configuration list for PBXNativeTarget "ZooskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECBB0441F78698200258027 /* Debug */,
+				AECBB0451F78698200258027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECBB0461F78698200258027 /* Build configuration list for PBXNativeTarget "ZooskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECBB0471F78698200258027 /* Debug */,
+				AECBB0481F78698200258027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AECBB00C1F78698200258027 /* Project object */;
+}
